@@ -22,7 +22,7 @@ BASE_LOGGING = {
         'console': {
             'class': 'logging.StreamHandler',
             'level': 'NOTSET',
-            'formatter': 'default',
+            'formatters': 'default',
         },
     },
     'root': {
